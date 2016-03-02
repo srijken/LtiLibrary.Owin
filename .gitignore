@@ -1,5 +1,4 @@
 AuthConfig.cs
-*.nuspec
 *.nupkg
 *.bat
 *.vssscc
