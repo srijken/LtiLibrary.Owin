@@ -1,5 +1,8 @@
 LTI OWIN Library
 ================
+[![Build status](https://ci.appveyor.com/api/projects/status/rk9dnw8ahmxrvtjx?svg=true
+)](https://ci.appveyor.com/project/srijken/ltilibrary.owin) 
+
 There are two .NET projects in this solution to support IMS LTI Tool Providers and Tool Consumers.
 
 ## LtiLibrary.Owin.Security.Lti
