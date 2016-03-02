@@ -38,6 +38,10 @@
     <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
+    <Reference Include="LtiLibrary.Core, Version=1.6.5905.34040, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\LtiLibrary.Core.1.6.0\lib\net45\LtiLibrary.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.AspNet.Identity.Core">
       <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.1.0\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
     </Reference>
@@ -86,10 +90,6 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\LtiLibrary\LtiLibrary.Core\LtiLibrary.Core.csproj">
-      <Project>{75d41eb6-f34b-4973-86eb-11abfee995b0}</Project>
-      <Name>LtiLibrary.Core</Name>
-    </ProjectReference>
     <ProjectReference Include="..\LtiLibrary.Owin.Security.Lti\LtiLibrary.Owin.Security.Lti.csproj">
       <Project>{51f8ecc9-9a3f-4c05-b5cd-5aca34f93bfb}</Project>
       <Name>LtiLibrary.Owin.Security.Lti</Name>
