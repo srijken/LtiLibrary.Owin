@@ -75,6 +75,7 @@ namespace LtiLibrary.AspNet.Identity.Owin
         /// </summary>
         /// <param name="context">Contains information about the login session as well as the LTI request.</param>
         /// <returns>A <see cref="Task"/> representing the completed operation.</returns>
+        [Obsolete("Use LtiGenerateUserNameContext.GenerateUserName instead")]
         public static Task OnGenerateUserName(LtiGenerateUserNameContext context)
         {
             if (string.IsNullOrEmpty(context.LtiRequest.LisPersonEmailPrimary))
